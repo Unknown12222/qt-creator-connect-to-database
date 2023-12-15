@@ -1,0 +1,17 @@
+// What this page will contain 
+// explain diagram of my class and my database
+// explain the function of my program
+
+Le class Dialog contient 3 méthode qui sont:
+
+ShowStats, on_QAddnotes_clicked, et on_Qquit_clicked
+
+ShowStats fait affichage de données dans le base de données dans la table Playersv2 dans un Widget qui est créé graphiquement s'appele tableView. Il est fait par rapport de la bouton a créé dans le constructeur de la classe Dialog
+
+on_QAddnotes_clicked
+Fait mise a jour d'une seule ligne dans le cologne Notes de Base de Données, qui, après de rentrer une valeur dans une Widget créé graphiquement s'appelle lineEdit, il vas affecter le valeur ":Notes", quand le bouton Addnotes est tapez et après est le bouton ShowStats il va afficher la modification.
+
+on_Qquit_clicked
+Fait sortir de la fenêtre.
+
+On tout cas ce programme vas vous afficher La contenu de la Base de données Jeu et fait mise a jour de la cologne Notes.   
